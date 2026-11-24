@@ -1,0 +1,18 @@
+CUDA & NPP Batch Image Processor - Installation Guide
+
+Requirements:
+- NVIDIA GPU with CUDA support
+- NVIDIA CUDA Toolkit (including nvcc, cudart, nppif, and nppc)
+- GNU Make and a bash-compatible shell (for run.sh)
+
+Linux / CUDA Lab Environment:
+1. Clone the repository:
+   git clone https://github.com/LoshiniRP/Cuda-NPP-Batch-Processor.git
+   cd Cuda-NPP-Batch-Processor
+2. Build and run:
+   chmod +x run.sh
+   ./run.sh
+
+Windows (with CUDA Toolkit installed):
+1. Open Developer Command Prompt or a shell where nvcc is in PATH.
+2. Compile with nvcc linking cudart, nppif, and nppc.
