@@ -1,0 +1,5 @@
+Batch count: 256
+Frame dimensions: 64x64
+Total pixels processed: 1048576
+Aggregate filtered mean intensity: 127.019
+GPU pipeline elapsed (ms): 25.5945

@@ -126,7 +126,6 @@ int main(int argc, char** argv) {
     CheckCuda(cudaStreamCreate(&stream), "cudaStreamCreate");
 
     NppStreamContext npp_ctx{};
-    CheckNpp(nppGetStreamContext(&npp_ctx), "nppGetStreamContext");
     npp_ctx.hStream = stream;
 
     auto start_time = std::chrono::high_resolution_clock::now();
